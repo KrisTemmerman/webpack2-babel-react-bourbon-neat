@@ -1,0 +1,16 @@
+@import '~bourbon/app/assets/stylesheets/bourbon';
+@import '~bourbon-neat/core/neat';
+
+$cvkt-grid:(
+	columns:12,
+	gutter:25px,
+);
+.container{
+	@include grid-container;
+	background-color:red;
+}
+
+.column{
+		background-color:red;
+		@include grid-column(12);
+}

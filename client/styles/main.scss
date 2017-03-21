@@ -1,0 +1,50 @@
+/*------------------------------------*\
+    # INSERT PROJECTNAME
+\*------------------------------------*/
+
+
+/**
+ * #DEPENDENCIES
+ */
+
+@import '../components/App.scss';
+
+
+/**
+ * #CONFIG
+ */
+
+@import "config/colors";
+@import "config/defaults";
+
+/**
+ * #TOOLS
+ */
+
+@import "tools/rem";
+
+/**
+ * #GENERIC
+ */
+@import "generic/normalize";
+@import "generic/reset";
+
+
+
+/**
+ * #BASE
+ */
+
+@import "base/page";
+@import "base/table";
+@import "base/headings";
+
+/**
+* #OBJECTS
+*/
+
+
+/**
+* #COMPONENTS
+*/
+

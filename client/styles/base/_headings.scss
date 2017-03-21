@@ -1,0 +1,11 @@
+/* Default styling for all Heading Elements */
+@for $index from 1 through 6{
+	h#{$index}{
+	 color:$black;
+	 small{
+	 	color:$black;
+	 	font-size:64%;
+	 	line-height: 1;
+	 }
+	}
+}

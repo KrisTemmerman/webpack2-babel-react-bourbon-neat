@@ -1,0 +1,116 @@
+/*------------------------------------*\
+    #COLORS
+\*------------------------------------*/
+
+/**
+ * Black & White
+ */
+
+$white:                #FFF;
+$black:                #000;
+
+/**
+ * PROJECT SPECIFIC COLORS 
+*/
+
+
+
+/**
+ * Brand Colors
+ */
+
+
+$pink\-:                #EC5089;
+$pink:                  #DF3A66;
+$pink\+:                #CE1B34;
+
+$red\-:                 #E34900;
+$red:                   #D03600;
+$red\+:                 #B71A00;
+
+$orange\-:              #FABF00;
+$orange:                #F79400;
+$orange\+:              #F35900;
+
+$yellow\-:              #F5EC2A;
+$yellow:                #EFE01F;
+$yellow\+:              #E6D00D;
+
+$green\-:               #94DC16;
+$green:                 #6EC610;
+$green\+:               #39A706;
+
+$aqua\-:                #23D7CC;
+$aqua:                  #1ABCAA;
+$aqua\+:                #0A997C;
+
+$blue\-\-\-:            #E7F2F6;
+$blue\-\-:              #87BFD7;
+$blue\-:                #16ACD0;
+$blue:                  #0F80AF;
+$blue\+:                #064384;
+
+/**
+ * Gray tints
+ */
+$gray\-\-\-:            #F9F9F9;
+$gray\-\-:              #6B6B6B;
+$gray\-:                #D8D8D8;
+$gray:                  #F5F5F5;
+$gray\+:                #CCC;
+$gray\+\+:              #9B9B9B;
+$gray\+\+\+:            #4A4A4A;
+
+
+/**
+ * Messages
+ */
+
+$error:                 #E24A02;
+
+
+
+/**
+ *
+ */
+$stock-negative:        #D03502;
+$stock-positive:        $green;
+
+/**
+ * Forms
+ */
+
+$input-bg:              #FCFCFC;
+$input-border:          #E9E7E7;
+
+/**
+ * Borders
+ */
+
+$sidebar-border:        #E6E6E6;
+
+$rainbow:               (
+                        #EB518E,
+                        #E24A02,
+                        #FABE00,
+                        #F5EC2B,
+                        #9ADC15,
+                        #24D6CC,
+                        #15B2CF,
+                        #DF3A66,
+                        #D03502,
+                        #F79400,
+                        #EFE01F,
+                        #6EC60F,
+                        #1ABCAA,
+                        #0F80AF,
+                        #CE1C32,
+                        #B81A00,
+                        #F25E00,
+                        #E6D00F,
+                        #36A907,
+                        #0C9A7F,
+                        #074086
+                        );
+
+$charts:                $rainbow;

@@ -1,0 +1,29 @@
+/*------------------------------------*\
+    #PAGE
+\*------------------------------------*/
+
+* {
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    -webkit-tap-highlight-color: transparent;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+html {
+    background: $base-bg-color;
+    color: $base-text-color;
+    font: $base-font-weight ($base-font-size / 16px) * 1em $base-font-family;
+    @include user-select(none);
+    height: 100%;
+
+   
+}
+
+body {
+    box-sizing: border-box;
+    &.body--has-tabbar {
+        padding-bottom: rem(50);
+    }
+}

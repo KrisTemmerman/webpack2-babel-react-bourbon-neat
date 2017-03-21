@@ -1,0 +1,7 @@
+/* TABLE */
+
+.table--striped{
+   tr:nth-of-type(odd){
+        background-color:$gray\-\-\-; /* Override this color in your theme stylesheet */
+    }
+}
