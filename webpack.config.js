@@ -82,6 +82,14 @@ module.exports = {
                 }),
             exclude: /node_modules/
           }
+          ,
+          {
+             test:  /\.(png|jpg|gif|svg)$/,
+             use: [
+              'url-loader?limit=10000&name=images/[hash:12].[ext]'
+             ],
+            exclude: /node_modules/
+          }
          ]
     },
     plugins: plugins,

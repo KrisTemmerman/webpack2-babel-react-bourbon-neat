@@ -1,13 +1,12 @@
+ @import url('https://fonts.googleapis.com/css?family=Lato:400,700');
+
 /*------------------------------------*\
     # INSERT PROJECTNAME
 \*------------------------------------*/
 
+@import '~bourbon/app/assets/stylesheets/bourbon';
+@import '~bourbon-neat/core/neat';
 
-/**
- * #DEPENDENCIES
- */
-
-@import '../components/App.scss';
 
 
 /**
@@ -20,7 +19,7 @@
 /**
  * #TOOLS
  */
-
+@import 'tools/responsive';
 @import "tools/rem";
 
 /**
@@ -38,6 +37,7 @@
 @import "base/page";
 @import "base/table";
 @import "base/headings";
+@import "base/img";
 
 /**
 * #OBJECTS
@@ -48,3 +48,4 @@
 * #COMPONENTS
 */
 
+@import '../components/App.scss';

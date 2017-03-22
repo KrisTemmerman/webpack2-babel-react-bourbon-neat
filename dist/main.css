@@ -1,33 +1,29 @@
-._3AFfFvkqC3LSNuo7xhHo35 {
-  background-color: red; }
-  ._3AFfFvkqC3LSNuo7xhHo35::after {
-    clear: both;
-    content: "";
-    display: block; }
+@import url(https://fonts.googleapis.com/css?family=Lato:400,700);/* IMPORT GRID-SETTINGS*/
+.up9nwgAivZeINKi7Bwsm8 {
+  /* Responsive -md $custom-grid*/
+  width: calc(100% - 40px);
+  float: left;
+  margin-left: 20px;
+  text-align: center; }
+  @media only screen and (min-width: 545px) {
+    .up9nwgAivZeINKi7Bwsm8 {
+      width: calc(66.66667% - 3.33333rem);
+      float: left;
+      margin-left: 2rem;
+      margin-left: calc(16.66667% - 2.33333rem + 4rem); } }
 
-._12x3I_IIvHRR-bxgFnMjiF {
-  background-color: red;
+._1NtOzjVq_FCg6zikeY1OcE {
   width: calc(100% - 40px);
   float: left;
   margin-left: 20px; }
+  @media only screen and (min-width: 545px) {
+    ._1NtOzjVq_FCg6zikeY1OcE {
+      width: calc(66.66667% - 3.33333rem);
+      float: left;
+      margin-left: 2rem;
+      margin-left: calc(16.66667% - 2.33333rem + 4rem); } }
 /*------------------------------------*    # INSERT PROJECTNAME
 \*------------------------------------*/
-/**
- * #DEPENDENCIES
- */
-._1W9j6105pAaartgwPeR9yR {
-  background-color: red; }
-  ._1W9j6105pAaartgwPeR9yR::after {
-    clear: both;
-    content: "";
-    display: block; }
-
-._1rKqlma4A48YirX5KLbIc {
-  background-color: red;
-  width: calc(100% - 40px);
-  float: left;
-  margin-left: 20px; }
-
 /**
  * #CONFIG
  */
@@ -62,6 +58,9 @@
 /**
  * High level base settings
  */
+* {
+  box-sizing: border-box; }
+
 /**
  * Namespace
  */
@@ -500,7 +499,7 @@ ins {
 html {
   background: #FFF;
   color: #000;
-  font: 300 1em Helvetica, Arial, sans-serif;
+  font: 300 1em Lato;
   -webkit-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
@@ -560,9 +559,37 @@ h6 {
     font-size: 64%;
     line-height: 1; }
 
+img {
+  max-width: 100%;
+  height: auto; }
+
 /**
 * #OBJECTS
 */
 /**
 * #COMPONENTS
 */
+/* IMPORT GRID-SETTINGS*/
+.CwRMg4hyUyrj43npG1nHI {
+  /* Responsive -md $custom-grid*/
+  width: calc(100% - 40px);
+  float: left;
+  margin-left: 20px;
+  text-align: center; }
+  @media only screen and (min-width: 545px) {
+    .CwRMg4hyUyrj43npG1nHI {
+      width: calc(66.66667% - 3.33333rem);
+      float: left;
+      margin-left: 2rem;
+      margin-left: calc(16.66667% - 2.33333rem + 4rem); } }
+
+.vsLe1aw_FqNmegcQIi1Pz {
+  width: calc(100% - 40px);
+  float: left;
+  margin-left: 20px; }
+  @media only screen and (min-width: 545px) {
+    .vsLe1aw_FqNmegcQIi1Pz {
+      width: calc(66.66667% - 3.33333rem);
+      float: left;
+      margin-left: 2rem;
+      margin-left: calc(16.66667% - 2.33333rem + 4rem); } }
